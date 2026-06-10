@@ -245,6 +245,17 @@ export const jogos: JogoInterface[] = [
             jogos: []
         },
         imagem: "https://th.bing.com/th/id/R.a7f5a75cfdee3a841cac51b9a9c381d3?rik=dOO87c2Y%2fuQRtA&riu=http%3a%2f%2fmedia.ign.com%2fgames%2fimage%2fobject%2f681%2f681942%2fGhostRider-2k_PS2_FoB.jpg&ehk=OOuLuh%2fvASLBzFdBMrkyjYRwnwEWlwf1k3oMh5%2ff%2bjo%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        nome: "Black",
+        desenvolvedor: "Criterion Games",
+        favorito: false,
+        genero: {
+            id: "fps",
+            value: "First-person shooter",
+            jogos: []
+        },
+        imagem: "https://th.bing.com/th/id/R.aa14f93822bebded327532b0cb4359df?rik=XaZAC2uAuWfkYA&pid=ImgRaw&r=0"
     }
 
 ];

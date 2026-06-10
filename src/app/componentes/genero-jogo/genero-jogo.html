@@ -3,5 +3,9 @@
         {{ genero().value }}
     </h3>
     <span class="linha-destaque linha-pequena"></span>
+    <div class="jogos-genero">
+    @for(jogo of genero().jogos; track jogo.nome){
+        <app-jogo [jogo]="jogo"></app-jogo>
+    }
+    </div>
 </section>
-<app-jogo [jogo]="jogo"></app-jogo>

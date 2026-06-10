@@ -1,5 +1,4 @@
 import { Component, input } from '@angular/core';
-import { jogos } from '../../mock-jogos';
 import { GeneroDoJogo } from '../jogo/jogo.inteface';
 import { Jogo } from "../jogo/jogo";
 
@@ -12,5 +11,4 @@ import { Jogo } from "../jogo/jogo";
 export class GeneroJogo {
 
   genero = input.required<GeneroDoJogo>();
-  jogo = jogos[0]
 }
