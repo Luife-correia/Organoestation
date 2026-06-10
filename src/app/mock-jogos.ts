@@ -20,8 +20,8 @@ export const jogos: JogoInterface[] = [
         desenvolvedor: "Santa Monica Studio",
         favorito: false,
         genero: {
-            id: "action-adventure",
-            value: "Action-adventure",
+            id: "hack-slash",
+            value: "Hack and Slash",
             jogos: []
         },
         imagem: "https://i5.walmartimages.com/asr/3ac8e0b5-76d1-4995-9570-d431696221eb_1.7ac304ae3667075f6348a7a065044d54.jpeg"
@@ -42,8 +42,8 @@ export const jogos: JogoInterface[] = [
         desenvolvedor: "Capcom",
         favorito: false,
         genero: {
-            id: "action-adventure",
-            value: "Action-adventure",
+            id: "hack-slash",
+            value: "Hack and Slash",
             jogos: []
         },
         imagem: "https://i.3djuegos.com/juegos/3716/devil_may_cry_3/fotos/ficha/devil_may_cry_3-1691940.jpg"
@@ -119,8 +119,8 @@ export const jogos: JogoInterface[] = [
         desenvolvedor: "Capcom",
         favorito: false,
         genero: {
-            id: "action-adventure",
-            value: "Action-adventure",
+            id: "	survival-horror",
+            value: "Survival horror",
             jogos: []
         },
         imagem: "https://www.vgdb.com.br/gf/fotos/games/media_49769/resident-evil-4--49769.jpg"
@@ -240,8 +240,8 @@ export const jogos: JogoInterface[] = [
         desenvolvedor: "Climax Group",
         favorito: false,
         genero: {
-            id: "action-adventure",
-            value: "Action-adventure",
+            id: "hack-slash",
+            value: "Hack and Slash",
             jogos: []
         },
         imagem: "https://th.bing.com/th/id/R.a7f5a75cfdee3a841cac51b9a9c381d3?rik=dOO87c2Y%2fuQRtA&riu=http%3a%2f%2fmedia.ign.com%2fgames%2fimage%2fobject%2f681%2f681942%2fGhostRider-2k_PS2_FoB.jpg&ehk=OOuLuh%2fvASLBzFdBMrkyjYRwnwEWlwf1k3oMh5%2ff%2bjo%3d&risl=&pid=ImgRaw&r=0"

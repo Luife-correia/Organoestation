@@ -31,6 +31,11 @@ export class ListaJogos implements OnInit {
         jogos: this.jogosPorGenero.get("action-adventure") ?? []
       },
       {
+        id: "hack-slash",
+        value: "Hack and Slash",
+        jogos: this.jogosPorGenero.get("hack-slash") ?? []
+      },
+      {
         id: "fighting",
         value: "Fighting",
         jogos: this.jogosPorGenero.get("fighting") ?? []
@@ -49,6 +54,11 @@ export class ListaJogos implements OnInit {
         id: "sports",
         value: "Sports",
         jogos: this.jogosPorGenero.get("sports") ?? []
+      },
+      {
+        id: "	survival-horror",
+        value: "Survival horror",
+        jogos: this.jogosPorGenero.get("survival-horror") ?? []
       },
       {
         id: "fps",
