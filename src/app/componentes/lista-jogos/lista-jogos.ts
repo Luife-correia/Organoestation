@@ -9,16 +9,16 @@ import { GeneroJogo } from "../genero-jogo/genero-jogo";
   templateUrl: './lista-jogos.html',
   styleUrl: './lista-jogos.css',
 })
-export class ListaJogos implements OnInit{
+export class ListaJogos implements OnInit {
   generos: GeneroDoJogo[] = [];
   jogosPorGenero: Map<string, JogoInterface[]> = new Map();
 
   ngOnInit() {
     this.jogosPorGenero = new Map();
 
-    jogos.forEach((jogo)=> {
+    jogos.forEach((jogo) => {
       const generoId = jogo.genero.id
-      if(!this.jogosPorGenero.has(generoId)){
+      if (!this.jogosPorGenero.has(generoId)) {
         this.jogosPorGenero.set(generoId, [])
       }
       this.jogosPorGenero.get(generoId)?.push(jogo)
@@ -29,9 +29,36 @@ export class ListaJogos implements OnInit{
         id: "action-adventure",
         value: "Action-adventure",
         jogos: this.jogosPorGenero.get("action-adventure") ?? []
+      },
+      {
+        id: "fighting",
+        value: "Fighting",
+        jogos: this.jogosPorGenero.get("fighting") ?? []
+      },
+      {
+        id: "racing",
+        value: "Racing",
+        jogos: this.jogosPorGenero.get("racing") ?? []
+      },
+      {
+        id: "rpg",
+        value: "RPG",
+        jogos: this.jogosPorGenero.get("rpg") ?? []
+      },
+      {
+        id: "sports",
+        value: "Sports",
+        jogos: this.jogosPorGenero.get("sports") ?? []
+      },
+      {
+        id: "fps",
+        value: "First-person shooter",
+        jogos: this.jogosPorGenero.get("fps") ?? []
       }
     ]
-    
+
+    console.log(this.jogosPorGenero)
+
   }
 
 }
