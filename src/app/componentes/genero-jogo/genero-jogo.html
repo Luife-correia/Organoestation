@@ -4,6 +4,12 @@
     </h3>
     <span class="linha-destaque linha-pequena"></span>
     <div class="jogos-genero">
+    @if (genero().jogos.length === 0) {
+        <div class="texto-sem-jogos">
+            <img src="https://images.squarespace-cdn.com/content/v1/531442ffe4b03cbb511321a9/5287d846-e5b4-4080-a2f6-a352e8f0d0af/ps2+red+screen+of+death+fasttech.png?format=1500w" alt="Não há jogos neste gênero ainda">
+            <p>Não há jogos neste gênero ainda</p>
+        </div>
+    }
     @for(jogo of genero().jogos; track jogo.nome){
         <app-jogo [jogo]="jogo"></app-jogo>
     }
