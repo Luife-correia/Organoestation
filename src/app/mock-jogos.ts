@@ -12,7 +12,7 @@ export const jogos: JogoInterface[] = [
             value: "Action-adventure",
             jogos: []
         },
-        imagem: "https://static.wikia.nocookie.net/ben10/images/1/16/Protector_of_earth.PNG/revision/latest?cb=20120504065112&path-prefix=pt"
+        imagem: "https://tse3.mm.bing.net/th/id/OIP.72m8XlCKSSlGcIGZFBwWRQHaKc?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
 
     },
     {

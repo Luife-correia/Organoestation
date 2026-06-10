@@ -1,6 +1,7 @@
 import { Component, input } from '@angular/core';
-import { Jogo } from "../jogo/jogo";
 import { jogos } from '../../mock-jogos';
+import { GeneroDoJogo } from '../jogo/jogo.inteface';
+import { Jogo } from "../jogo/jogo";
 
 @Component({
   selector: 'app-genero-jogo',
@@ -10,6 +11,6 @@ import { jogos } from '../../mock-jogos';
 })
 export class GeneroJogo {
 
-/*   genero = input.required<GeneroJogo>();
- */  jogo = jogos[0]
+  genero = input.required<GeneroDoJogo>();
+  jogo = jogos[0]
 }

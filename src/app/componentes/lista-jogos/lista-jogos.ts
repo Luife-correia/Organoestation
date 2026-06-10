@@ -5,7 +5,7 @@ import { GeneroJogo } from "../genero-jogo/genero-jogo";
 
 @Component({
   selector: 'app-lista-jogos',
-  imports: [],
+  imports: [GeneroJogo],
   templateUrl: './lista-jogos.html',
   styleUrl: './lista-jogos.css',
 })
