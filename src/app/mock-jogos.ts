@@ -119,7 +119,7 @@ export const jogos: JogoInterface[] = [
         desenvolvedor: "Capcom",
         favorito: false,
         genero: {
-            id: "	survival-horror",
+            id: "survival-horror",
             value: "Survival horror",
             jogos: []
         },

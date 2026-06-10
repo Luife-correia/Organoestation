@@ -1,6 +1,6 @@
 import { Component, input } from '@angular/core';
+import { NgClass } from '@angular/common';
 import { JogoInterface } from './jogo.inteface';
-import { NgClass } from "../../../../node_modules/@angular/common/types/_common_module-chunk";
 
 @Component({
   selector: 'app-jogo',

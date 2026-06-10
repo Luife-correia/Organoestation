@@ -56,7 +56,7 @@ export class ListaJogos implements OnInit {
         jogos: this.jogosPorGenero.get("sports") ?? []
       },
       {
-        id: "	survival-horror",
+        id: "survival-horror",
         value: "Survival horror",
         jogos: this.jogosPorGenero.get("survival-horror") ?? []
       },
