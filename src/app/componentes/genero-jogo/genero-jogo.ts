@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { Jogo } from "../jogo/jogo";
 import { jogos } from '../../mock-jogos';
 
@@ -9,5 +9,7 @@ import { jogos } from '../../mock-jogos';
   styleUrl: './genero-jogo.css',
 })
 export class GeneroJogo {
-  jogo = jogos[0]
+
+/*   genero = input.required<GeneroJogo>();
+ */  jogo = jogos[0]
 }

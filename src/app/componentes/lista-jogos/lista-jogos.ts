@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { GeneroDoJogo, JogoInterface } from '../jogo/jogo.inteface';
 import { jogos } from '../../mock-jogos';
+import { GeneroJogo } from "../genero-jogo/genero-jogo";
 
 @Component({
   selector: 'app-lista-jogos',
@@ -27,7 +28,7 @@ export class ListaJogos implements OnInit{
       {
         id: "action-adventure",
         value: "Action-adventure",
-        jogos: this.jogosPorGenero.get("action-adventure") as unknown as any[] ?? []
+        jogos: this.jogosPorGenero.get("action-adventure") ?? []
       }
     ]
     

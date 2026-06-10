@@ -6,10 +6,11 @@ export interface JogoInterface{
     favorito: boolean;
     genero: GeneroDoJogo;
     imagem: string;
+
 }
 
 export interface GeneroDoJogo {
     id: string;
     value: string;
-    jogos: Jogo[];
+    jogos: JogoInterface[]
 }
