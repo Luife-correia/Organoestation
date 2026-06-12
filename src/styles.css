@@ -1,8 +1,10 @@
 :root {
   --font-montserrat: 'Montserrat', sans-serif;
   --font-prata: 'Prata', serif;
-  --color-primaria: #0a0a0a;
-  --color-secundaria: #fa0404;
+  --color-primaria: #ffff;
+  --color-secundaria: #1C45BE;
+  --color-terciaria: #27353D;
+  --color-background: #0C101A;
   --font-weight-normal: 400;
   --font-weight-bold: 700;
 }
@@ -23,4 +25,8 @@
 body, html{
     margin: 0;
     padding: 0;
+}
+
+body{
+  background-color: black;
 }

@@ -1,8 +1,55 @@
-.banner{
-    background-color: black;
+.background{
+        background-image: url(/image7.png);
+        background-position:right;
+        background-size: 70%;
+        background-repeat: no-repeat;
 }
 
-.banner img{
-    width: 100%;
-    object-fit: contain;
+header{
+    background: 
+    linear-gradient(132deg, rgba(0, 0, 0, 0.87) 81%,rgba(28, 69, 190, 1) 100%),
+    linear-gradient(213deg, rgba(0, 0, 0, 0) 81%,rgba(28, 69, 190, 1) 100%);
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    border: 1px solid var(--color-secundaria);
+    border-radius: 5px;
+}
+
+.header-assets{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 20%;
+    gap: 5px;
+}
+
+.header-title{
+    color: var(--color-primaria);
+    margin-bottom: 0;
+}
+
+.header-title span{
+    color: var(--color-secundaria);
+}
+
+.header-paragraph{
+    color: white;
+    width: 70%;
+
+}
+
+.header-btn{
+    width: 150px;
+    background-color: var(--color-secundaria);    
+    color: var(--color-primaria);
+    border: 1px solid var(--color-secundaria);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 22px;
+}
+
+.header-image img{
+    width: 200px;
 }
