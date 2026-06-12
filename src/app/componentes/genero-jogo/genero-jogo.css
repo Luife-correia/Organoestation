@@ -2,6 +2,9 @@
   display: flex;
   flex-direction: column;
   padding: 48px 160px;
+  background-color: var(--color-background);
+  margin: 20px;
+  border-radius: 5px;
 }
 
 .jogos-genero {
@@ -38,68 +41,6 @@
   font-size: 20px;
 }
 
-.action-adventure {
-  background-color: lab(69.7% -67.44 53.55 / 0.781);
-}
 
-.generos .action-adventure {
-  border-bottom: 4px solid lab(69.7% -67.44 53.55);
-}
-
-.hack-slash {
-  background-color: #ff0000c9;
-}
-
-.generos .hack-slash {
-  border-bottom: 4px solid #ff0000;
-}
-
-.fighting {
-  background-color: #ff9100d3;
-}
-
-.generos .fighting {
-  border-bottom: 4px solid #ff9100;
-}
-
-.racing {
-  background-color: #00e1ff9f;
-}
-
-.generos .racing {
-  border-bottom: 4px solid #00defc;
-}
-
-.rpg {
-  background-color: #6929ffcb;
-}
-
-.generos .rpg {
-  border-bottom: 4px solid #6929ff;
-}
-
-.sports {
-  background-color: #aeb4aea4;
-}
-
-.generos .sports {
-  border-bottom: 4px solid #aeb4ae;
-}
-
-.survival-horror {
-  background-color: #000000ec;
-}
-
-.generos .survival-horror {
-  border-bottom: 4px solid #000000;
-}
-
-.fps {
-  background-color: #ffc629d8;
-}
-
-.generos .fps {
-  border-bottom: 4px solid #ffc629;
-}
 
 

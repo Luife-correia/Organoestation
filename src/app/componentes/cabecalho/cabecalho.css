@@ -3,6 +3,7 @@
         background-position:right;
         background-size: 70%;
         background-repeat: no-repeat;
+        margin: 20px;
 }
 
 header{
@@ -13,7 +14,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
-    border: 1px solid var(--color-secundaria);
+    border: 1px solid var(--color-background);
     border-radius: 5px;
 }
 
