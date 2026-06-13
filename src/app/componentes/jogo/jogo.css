@@ -1,50 +1,10 @@
 section {
-  width: 262px;
-  min-height: 382px;
   margin: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #FFFFFF;
   border-radius: 8px;
   position: relative;
-  overflow: hidden;
-  padding-top: 16px;
-  border-top: 24px solid;
-}
-
-.action-adventure {
-  border-color: lab(69.7% -67.44 53.55);
-}
-
-.hack-slash {
-  border-color: #ff0000;
-}
-
-.fighting {
-  border-color: #ff9100;
-}
-
-.racing {
-  border-color: #00defc;
-}
-
-.rpg {
-  border-color: #6929ff;
-}
-
-.sports {
-  border-color: #aeb4ae;
-
-}
-
-.survival-horror {
-  border-color: #000000;
-
-}
-
-.fps {
-  border-color: #ffc629;
 }
 
 section .info-jogo {
@@ -82,8 +42,8 @@ section .imagem {
 }
 
 section img {
-  width: 128px;
-  height: 184px;
+  width: 200px;
+  height: 300px;
   margin-bottom: 20px;
 }
 

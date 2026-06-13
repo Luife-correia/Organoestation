@@ -1,7 +1,7 @@
 .generos {  
   display: flex;
   flex-direction: column;
-  padding: 48px 160px;
+  padding: 0 50px;
   background-color: var(--color-background);
   margin: 20px;
   border-radius: 5px;
@@ -14,16 +14,14 @@
   justify-content:center;
 }
 
-.linha-destaque {
-  width: 32px;
-}
-
 .genero-titulo {
   font-family: var(--font-prata);
   font-size: 28px;
   font-weight: var(--font-weight-normal);
   line-height: 38px;
-  text-align: center;
+  text-align: left;
+  color: var(--color-primaria);
+  margin-bottom: 0;
 }
 
 .texto-sem-jogos img {
