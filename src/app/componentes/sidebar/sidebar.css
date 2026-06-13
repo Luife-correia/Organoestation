@@ -7,13 +7,15 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin: 20px 0 20px 20px;
+    border-radius: 10px;
 }
 
 .sidebar-menu{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 2000px;
+    margin-bottom: 1000px;
 }
 
 .sidebar-menu a{
@@ -22,8 +24,10 @@
 
 .sidebar-img{
     border: 1px solid var(--color-secundaria);
+    border-radius: 10px;
     text-align: center;
     width: 200px;
+    margin-bottom: 20px;
     
 }
 

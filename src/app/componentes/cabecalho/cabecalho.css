@@ -1,5 +1,5 @@
 .background{
-        background-image: url(/image7.png);
+        background-image: url(/banner.png);
         background-position:right;
         background-size: 70%;
         background-repeat: no-repeat;
@@ -13,23 +13,26 @@ header{
     linear-gradient(213deg, rgba(0, 0, 0, 0) 81%,rgba(28, 69, 190, 1) 100%);
 
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: 0 50px;
     border: 1px solid var(--color-background);
-    border-radius: 5px;
+    border-radius: 10px;
+
 }
 
 .header-assets{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    width: 21%;
+    width: 30%;
     gap: 5px;
 }
 
 .header-title{
     color: var(--color-primaria);
     margin-bottom: 0;
+    font-size: 60px;
 }
 
 .header-title span{
@@ -39,6 +42,7 @@ header{
 .header-paragraph{
     color: var(--color-terciaria);
     width: 70%;
+    font-size: 20px;
 
 }
 
@@ -47,11 +51,11 @@ header{
     background-color: var(--color-secundaria);    
     color: var(--color-primaria);
     border: 1px solid var(--color-secundaria);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     margin-bottom: 22px;
 }
 
 .header-image img{
-    width: 200px;
+    width: 300px;
 }
